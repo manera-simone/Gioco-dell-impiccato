@@ -5,13 +5,16 @@ Ho scritto un programma in linguaggio C che ricrea il classico gioco dell'impicc
 Il gioco prevede di indovinare una parola nascosta selezionata casualmente da un dizionario. 
 
 Sono presenti 4 livelli di difficoltà, ovvero:
-    - **Easy**: parole semplici e più corte; la prima e l'ultima lettera sono fornite
-    - **Medium**: parole comuni e di lunghezza media; la prima e l'ultima lettera sono fornite
-    - **Hard**: parole difficili di lunghezza variabile; la prima e l'ultima lettera sono fornite
-    - **Impossible**: parole molto difficili e rare; la prima e l'ultima lettera NON sono fornite
+- **Easy**: parole semplici e più corte; la prima e l'ultima lettera sono fornite
+- **Medium**: parole comuni e di lunghezza media; la prima e l'ultima lettera sono fornite
+- **Hard**: parole difficili di lunghezza variabile; la prima e l'ultima lettera sono fornite
+- **Impossible**: parole molto difficili e rare; la prima e l'ultima lettera NON sono fornite
 Infine, è presente un livello di difficoltà aggiuntivo chiamato "Random": quando l'utente seleziona questo livello, 
 una delle quattro difficoltà principali viene scelta casualmente con le seguenti probabilità: 
-    Easy con il 40% di probabilità, Medium con il 30%, Hard con il 20% e Impossible con il 10%. 
+- Easy con il 40% di probabilità
+- Medium con il 30% di probabilità
+- Hard con il 20% di probabilità
+- Impossible con il 10% di probabilità
 Credo che ciò aggiunga un elemento di imprevedibilità al gioco, permettendo agli utenti di sperimentare una varietà di sfide.
 
 Durante il gioco, il giocatore ha la possibilità di chiedere un indizio nel caso in cui si trovi bloccato nel tentativo 
