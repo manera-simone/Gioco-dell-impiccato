@@ -1,4 +1,4 @@
-# I made a hangman game using C.
+# Gioco dell'impiccato
 ---
 ## Panoramica:
 Ho scritto un programma in linguaggio C che ricrea il classico gioco dell'impiccato. 
