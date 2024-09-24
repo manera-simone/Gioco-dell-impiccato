@@ -9,14 +9,10 @@ Sono presenti 4 livelli di difficoltà, ovvero:
 - **Medium**: parole comuni e di lunghezza media; la prima e l'ultima lettera sono fornite
 - **Hard**: parole difficili di lunghezza variabile; la prima e l'ultima lettera sono fornite
 - **Impossible**: parole molto difficili e rare; la prima e l'ultima lettera NON sono fornite
-Infine, è presente un livello di difficoltà aggiuntivo chiamato "Random": quando l'utente seleziona questo livello, 
-una delle quattro difficoltà principali viene scelta casualmente con le seguenti probabilità: 
-- Easy con il 40% di probabilità
-- Medium con il 30% di probabilità
-- Hard con il 20% di probabilità
-- Impossible con il 10% di probabilità
-Credo che ciò aggiunga un elemento di imprevedibilità al gioco, permettendo agli utenti di sperimentare una varietà di sfide.
 
+Infine, è presente un livello di difficoltà aggiuntivo chiamato "Random": quando l'utente seleziona questo livello, 
+una delle quattro difficoltà principali viene scelta casualmente. 
+Credo che ciò aggiunga un elemento di imprevedibilità al gioco, permettendo agli utenti di sperimentare una varietà di sfide.
 Durante il gioco, il giocatore ha la possibilità di chiedere un indizio nel caso in cui si trovi bloccato nel tentativo 
 di indovinare la parola segreta. All'inizio di ogni partita, il giocatore dispone di 3 indizi che può utilizzare. 
 Tuttavia, se tutti gli indizi vengono esauriti e il giocatore si trova ancora in difficoltà, ha la possibilità di acquistare 
@@ -25,6 +21,7 @@ Credo che questa meccanica aggiuntiva offra al giocatore un'opportunità per sup
 un certo grado di sfida e decisione strategica nel gestire i propri punti per ottenere vantaggi durante la partita.
 
 Il programma tiene traccia del punteggio totale, delle vite rimanenti e fornisce un report dettagliato alla fine di ogni partita.
+
 ---
 ## Struttura:
 - main.c: *contiene la funzione main e gestisce il flusso del gioco.*
